@@ -2,7 +2,7 @@
 
 ### Network Topology  
 *(Packet Tracer Diagram)*  
-<img src="networkdiagram_staticrouting" width="85%" />
+<img src="./netoworkdiagram_staticrouting.png" width="85%" />
 
 ---
 
@@ -158,11 +158,6 @@ ip route 192.168.1.0 255.255.255.0 192.168.13.2
 show ip route
 ```
 
-Expect:
-- **C** – Connected networks  
-- **L** – Local addresses  
-- **S** – Static routes  
-
 ---
 
 ### **Ping Test From PC1**
@@ -170,8 +165,8 @@ Expect:
 ping 192.168.3.1
 ```
 
-✔ First ping fails due to ARP  
-✔ Following pings succeed  
+First ping fails due to ARP  
+Following pings succeed  
 
 ---
 
