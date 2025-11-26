@@ -9,6 +9,10 @@ Below is a complete explanation of:
 
 ---
 
+### Network Topology  
+*(Packet Tracer Diagram)*  
+<img src="./vlan_basics.png" width="85%" />
+
 # 1. Understanding Why These Default Gateways Were Used
 
 Your network uses **three /26 subnets**.  
