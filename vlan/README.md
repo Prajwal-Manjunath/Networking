@@ -1,11 +1,6 @@
 # VLAN & Inter-VLAN Routing Learning
 
-Below is a complete explanation of:
 
-- Why each VLAN uses a specific default gateway  
-- How the gateway IP was calculated  
-- Why each switch command is used  
-- How the router performs inter-VLAN routing  
 
 ---
 
