@@ -40,8 +40,6 @@ So the networks are:
 - Netmask → 255.255.255.192  
 - Gateway → 10.0.0.62  
 
-We use “last usable” as gateway because it’s a common structured approach in labs.
-
 ---
 
 ## VLAN20 – HR (10.0.0.64/26)
