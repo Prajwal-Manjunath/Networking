@@ -60,7 +60,8 @@ This network uses a **Collapsed Core (Two-Tier) Architecture**, where:
 
 ## Network Topology
 
-*(Insert Packet Tracer network topology diagram here)*
+![Branch Office Network Topology](./SOHO_Network_Design.png)
+
 
 ---
 
@@ -129,7 +130,7 @@ interface range fa0/7-9
  switchport mode access
  switchport access vlan 30
 ```
-
+![Router-on-a-Stick Configuration](./vlan_creation.png)
 ---
 
 ### Trunk Port Configuration (Switch → Router)
@@ -171,7 +172,7 @@ interface gig0/0.30
 ```
 
 Each subinterface acts as the **default gateway** for its respective VLAN.
-
+![Switch VLAN Configuration](./vlanconfig.png)
 ---
 
 ## DHCP Configuration
@@ -194,7 +195,7 @@ ip dhcp pool Service-Pool
  default-router 192.168.1.129
  dns-server 192.168.1.129
 ```
-
+![DHCP Verification](./DHCP.png)
 ---
 
 ## Wireless Network Configuration
