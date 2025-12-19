@@ -24,6 +24,8 @@ The project was implemented and tested using **Cisco Packet Tracer**.
 ### Architecture Used
 **Hierarchical Network Architecture with a Collapsed Core (Two-Tier Design)**
 
+![Multi-Floor Office Network Topology](./topology.png)
+
 ### Architecture Breakdown
 - **Collapsed Core / Distribution Layer**
   - Implemented using three routers (one per floor)
